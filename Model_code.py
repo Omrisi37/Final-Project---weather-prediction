@@ -68,7 +68,7 @@ st.markdown("""
 def load_data():
     """טעינת נתוני האימון לצורך הדגמה"""
     try:
-        df = pd.read_csv('seattleweather.csv')
+        df = pd.read_csv('seattle-weather.csv')
         return df
     except:
         # אם הקובץ לא קיים, נחזיר נתונים מדומים
